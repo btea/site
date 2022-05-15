@@ -1,29 +1,20 @@
 {
-    "name": "site",
-    "version": "0.0.1",
+    "name": "site note",
+    "version": "1.0.0",
     "description": "",
-    "main": "main.ts",
+    "main": "index.js",
     "scripts": {
-        "start": "vite",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/btea/site.git"
     },
-    "author": "btea",
-    "license": "MIT",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
     "bugs": {
         "url": "https://github.com/btea/site/issues"
     },
-    "homepage": "https://github.com/btea/site#readme",
-    "devDependencies": {
-        "typescript": "^4.5.5",
-        "vite": "^2.7.13"
-    },
-    "dependencies": {
-        "@codesandbox/sandpack-client": "^0.13.7",
-        "element-plus": "^1.3.0-beta.10",
-        "vue": "^3.2.29"
-    }
+    "homepage": "https://github.com/btea/site#readme"
 }
