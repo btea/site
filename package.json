@@ -1,9 +1,12 @@
 {
-    "name": "site note",
+    "name": "site",
     "version": "1.0.0",
-    "description": "",
+    "description": "site note",
     "main": "index.js",
     "scripts": {
+        "docs:dev": "vitepress dev docs",
+        "docs:build": "vitepress build docs",
+        "docs:serve": "vitepress serve docs",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
@@ -16,5 +19,8 @@
     "bugs": {
         "url": "https://github.com/btea/site/issues"
     },
-    "homepage": "https://github.com/btea/site#readme"
+    "homepage": "https://github.com/btea/site#readme",
+    "devDependencies": {
+        "vitepress": "^0.22.4"
+    }
 }
